@@ -1,0 +1,71 @@
+.noSelect {
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-o-user-select:none;
+	outline:none;
+	user-select:none;
+}
+body {
+	background-image:url('img/circles.png');
+	/*background-image: url('img/carved2.jpeg');*/
+	background-repeat:repeat;
+	font-family:"Trebuchet MS",Helvetica,sans-serif;
+}
+#app {
+	position:relative;
+	box-shadow:0px 0px 20px 3px rgba(255, 205, 255, .4);
+	margin:10px auto;
+	border-radius:30px;
+	/*border:5px solid rgba(255, 255, 255, .4);*/
+}
+.appSize {
+	width:800px;
+	height:480px;
+	overflow:show;
+}
+#processingHolder {
+	border-radius:30px;
+	overflow:hidden;
+}
+#viewProcessing {
+	border-radius:30px;
+	width:100%;
+	height:100%;
+}
+#controlBar {
+	position:relative;
+	top:-30px;
+	width:600px;
+	height:40px;
+	background-color:rgba(20, 20, 20, .9);
+	box-shadow:0px 2px 10px rgba(255, 144, 255, .4);
+	margin:10px auto;
+	border-radius:30px;
+}
+#controlBar button {
+	font-size:17px;
+	position:absolute;
+	top:5px;
+	background-color:rgba(20, 20, 20, .9);
+	box-shadow:0px 2px 3px rgba(255, 144, 255, .4);
+	border-radius:30px;
+	color:white;
+	width:30px;
+	height:30px;
+}
+#backButton {
+	left:10px;
+}
+#forwardButton {
+	right:10px;
+}
+#title {
+	position:relative;
+	width:180px;
+	margin:0 auto;
+	text-align:center;
+	font-size:17px;
+	top:5px;
+	color:white;
+}
